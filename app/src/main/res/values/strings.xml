@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Chatter Box</string>
+    <string name="todo">TODO</string>
+    <string name="chatter_box">Chatter Box</string>
+    <string name="our_neighbour_our_community">Our neighbour, Our community...</string>
+    <string name="jamii">Jamii</string>
+    <string name="chats">Chats</string>
+    <string name="community">Community</string>
+</resources>
