@@ -1,6 +1,11 @@
 package com.example.chatterbox;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView img;
     TextView iconName, tagLine;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         iconName = findViewById(R.id.appName);
         tagLine = findViewById(R.id.tagLine);
 
+
+
+
         img.setAnimation(topAnim);
         iconName.setAnimation(bottomAnim);
         tagLine.setAnimation(bottomAnim);
@@ -37,10 +46,11 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, Dashboard.class);
+                Intent intent = new Intent(MainActivity.this, OnboardingActivity.class);
                 startActivity(intent);
                 finish();
             }
         }, 4500);
    }
+
 }

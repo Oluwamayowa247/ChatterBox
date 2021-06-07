@@ -6,4 +6,12 @@
     <string name="jamii">Jamii</string>
     <string name="chats">Chats</string>
     <string name="community">Community</string>
+    <string name="we_are_all_about_family">We are all about Family...</string>
+    <string name="service_for_all">Service for all</string>
+    <string name="tab_indicator">tab indicator</string>
+    <string name="redefining_youth_culture">Redefining Youth Culture...</string>
+    <string name="young_or_old">Young or Old</string>
+    <string name="there_is_something_for_everyone">There is something for everyone...</string>
+
+
 </resources>
