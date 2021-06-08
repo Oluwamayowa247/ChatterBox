@@ -12,6 +12,11 @@
     <string name="redefining_youth_culture">Redefining Youth Culture...</string>
     <string name="young_or_old">Young or Old</string>
     <string name="there_is_something_for_everyone">There is something for everyone...</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="last_name">Last Name</string>
+    <string name="sign_up">Sign Up</string>
 
 
 </resources>
