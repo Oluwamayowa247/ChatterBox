@@ -27,6 +27,8 @@ public class OnboardingActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.pager);
         pagerAdapter = new OnboardingActivity.ScreenSlidePagerAdapter(getSupportFragmentManager());
         viewPager.setAdapter(pagerAdapter);
+
+
     }
 
     private class  ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {

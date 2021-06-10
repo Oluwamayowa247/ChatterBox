@@ -17,6 +17,7 @@
     <string name="login">Login</string>
     <string name="last_name">Last Name</string>
     <string name="sign_up">Sign Up</string>
+    <string name="first_name">First name</string>
 
 
 </resources>
