@@ -10,6 +10,8 @@ import android.os.Bundle;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.tabs.TabLayout;
 
+import java.util.Objects;
+
 public class LoginActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
@@ -28,6 +30,11 @@ public class LoginActivity extends AppCompatActivity {
         twitter = findViewById(R.id.fab_tw);
         google = findViewById(R.id.fab_google);
 
+
+        tabLayout.setupWithViewPager(viewPager);
+//        Objects.requireNonNull(tabLayout.getTabAt(0)).setText("Login");
+//        Objects.requireNonNull(tabLayout.getTabAt(1)).setText("Sign Up");
+
         tabLayout.addTab(tabLayout.newTab().setText("Login"));
         tabLayout.addTab(tabLayout.newTab().setText("Sign Up"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
@@ -35,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
         final LoginAdapter adapter = new  LoginAdapter(getSupportFragmentManager(), this, tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 
-          viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+         // viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
           fb.setTranslationY(300);
           google.setTranslationY(300);
           twitter.setTranslationY(300);

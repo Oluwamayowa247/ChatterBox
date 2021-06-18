@@ -16,44 +16,53 @@
             android:layout_height="wrap_content"
             app:title="Jamii"
             app:titleTextColor="#FFFFFF"
+
             />
     </com.google.android.material.appbar.AppBarLayout>
 
-        <com.google.android.material.tabs.TabLayout
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            app:tabGravity="fill"
-            app:tabBackground="@android:color/white"
-            app:tabIndicator="@android:color/white"
-            app:tabIndicatorHeight="?actionBarSize"
-            app:tabIndicatorColor="@android:color/holo_blue_dark"
-            app:tabSelectedTextColor="@android:color/white"
-            app:tabTextColor="#000000"
+<!--        <com.google.android.material.tabs.TabLayout-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_width="match_parent"-->
+<!--            app:tabGravity="fill"-->
+<!--            app:tabBackground="@android:color/white"-->
+<!--            app:tabIndicator="@android:color/white"-->
+<!--            app:tabIndicatorHeight="?actionBarSize"-->
+<!--            app:tabIndicatorColor="@android:color/holo_blue_dark"-->
+<!--            app:tabSelectedTextColor="@android:color/white"-->
+<!--            app:tabTextColor="#000000"-->
 
-          >
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/chats"
-                />
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="AA"/>
-            <com.google.android.material.tabs.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/community"/>
+<!--          >-->
+<!--            <com.google.android.material.tabs.TabItem-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/chats"-->
+<!--                />-->
+<!--            <com.google.android.material.tabs.TabItem-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="AA"/>-->
+<!--            <com.google.android.material.tabs.TabItem-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/community"/>-->
 
-        </com.google.android.material.tabs.TabLayout>
+<!--        </com.google.android.material.tabs.TabLayout>-->
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:visibility="visible"
-        app:layout_behavior = "@string/appbar_scrolling_view_behavior"
-        android:layout_marginTop="40dp"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent" />
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewpager"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_behavior = "@string/appbar_scrolling_view_behavior"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent" />-->
 
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="214dp"
+        android:layout_height="174dp"
+        android:text="Logout"
+
+        />
 
 </LinearLayout>

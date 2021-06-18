@@ -16,7 +16,6 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class OnBoardingFragment3 extends Fragment {
 
-
     FloatingActionButton fab;
 
     @Nullable
@@ -30,9 +29,9 @@ public class OnBoardingFragment3 extends Fragment {
              @Override
              public void onClick(View v) {
 
-                 Intent intent = new Intent(getActivity(), LoginActivity.class);
+               Intent intent = new Intent(getActivity(), LoginActivity.class);
 
-
+               startActivity(intent);
 
              }
          });
