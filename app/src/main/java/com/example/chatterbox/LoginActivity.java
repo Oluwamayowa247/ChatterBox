@@ -1,4 +1,4 @@
-package com.example.chatterbox;
+ package com.example.chatterbox;
 
 
 
@@ -31,17 +31,17 @@ public class LoginActivity extends AppCompatActivity {
         google = findViewById(R.id.fab_google);
 
 
-        tabLayout.setupWithViewPager(viewPager);
-//        Objects.requireNonNull(tabLayout.getTabAt(0)).setText("Login");
-//        Objects.requireNonNull(tabLayout.getTabAt(1)).setText("Sign Up");
-
         tabLayout.addTab(tabLayout.newTab().setText("Login"));
         tabLayout.addTab(tabLayout.newTab().setText("Sign Up"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final LoginAdapter adapter = new  LoginAdapter(getSupportFragmentManager(), this,
                 tabLayout.getTabCount());
+
         viewPager.setAdapter(adapter);
+
+
+        
 
          // viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
           fb.setTranslationY(300);

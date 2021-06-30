@@ -20,6 +20,8 @@
     <string name="first_name">First name</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="email_address">Email Address</string>
+    <string name="chat_box">Chat Box</string>
+    <string name="chatter_box">Chatter Box</string>
 
 
 </resources>

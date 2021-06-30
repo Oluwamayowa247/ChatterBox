@@ -5,6 +5,7 @@ import android.content.Context;
 import  com.example.chatterbox.signupFragment.LoginTabFragment;
 import   com.example.chatterbox.signupFragment.SignUpFragment;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
@@ -42,5 +43,18 @@ public class LoginAdapter extends FragmentPagerAdapter {
 
         }
 
+    }
+
+    @Nullable
+    @org.jetbrains.annotations.Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position){
+            case 0:
+                return ("Login");
+            case 1:
+                return ("Sign Up");
+        }
+        return super.getPageTitle(position);
     }
 }

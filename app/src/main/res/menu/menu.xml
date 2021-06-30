@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:title="search"
+        android:icon="@drawable/search"
+        android:id="@+id/search"
+        />
+    <item
+        android:title="chats"
+        android:icon="@drawable/chats"
+        android:id="@+id/chats"
+        />
+
+    <item
+        android:title="news"
+        android:icon="@drawable/news"
+        android:id="@+id/news"/>
+    <item
+        android:title="jokes"
+        android:icon="@drawable/jokes"
+        android:id="@+id/jokes"
+        />
+    <item
+        android:title="Hire a hall"
+        android:id="@+id/events"
+        android:icon="@drawable/events"/>
+    <item
+        android:title="Restaurant"
+        android:icon="@drawable/restaurant"
+        android:id="@+id/restaurant"/>
+    <item
+        android:title="Find my way"
+        android:icon="@drawable/direction"
+        android:id="@+id/findMyWay"/>
+
+
+</group>
+
+
+
+
+</menu>

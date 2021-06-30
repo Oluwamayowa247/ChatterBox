@@ -8,9 +8,9 @@
 
     <EditText
         android:id="@+id/email_address"
-        android:layout_width="256dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="148dp"
+        android:layout_width="278dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="72dp"
         android:autofillHints="@string/email_address"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/email_address"
@@ -19,16 +19,16 @@
         android:paddingEnd="20dp"
         android:paddingBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.303"
+        app:layout_constraintHorizontal_bias="0.323"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
         android:id="@+id/first_name"
-        android:layout_width="253dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="279dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp"
         android:autofillHints="First Name"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/first_name"
@@ -37,16 +37,16 @@
         android:paddingEnd="20dp"
         android:paddingBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintHorizontal_bias="0.318"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_address"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
         android:id="@+id/last_name"
-        android:layout_width="257dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
         android:autofillHints="First Name"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/last_name"
@@ -55,16 +55,16 @@
         android:paddingEnd="20dp"
         android:paddingBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/first_name"
         app:layout_constraintWidth_percent=".8" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="254dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="288dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
         android:autofillHints="First Name"
         android:background="@drawable/edit_text_bg"
         android:hint="@string/password"
@@ -73,7 +73,7 @@
         android:paddingEnd="20dp"
         android:paddingBottom="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/last_name"
         app:layout_constraintWidth_percent=".8" />
