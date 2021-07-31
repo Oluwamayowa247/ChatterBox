@@ -23,7 +23,7 @@
         android:background="@color/Pink"
         android:layout_gravity = "start"
         app:headerLayout="@layout/nav_header"
-        app:menu=""
+
 
         />
 

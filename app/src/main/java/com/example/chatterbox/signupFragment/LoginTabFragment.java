@@ -17,6 +17,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.chatterbox.Dashboard;
+import com.example.chatterbox.LocationActivity;
 import com.example.chatterbox.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -80,7 +81,7 @@ public class LoginTabFragment extends Fragment {
                        if(task.isSuccessful()){
 
                            Toast.makeText(getActivity(), "Welcome Back Omo Iya mii", Toast.LENGTH_SHORT).show();
-                           startActivity(new Intent(getActivity(), Dashboard.class));
+                           startActivity(new Intent(getActivity(), LocationActivity.class));
                        } else {
                            Toast.makeText(getActivity(), "Error jare !" +
                                            Objects.requireNonNull(task.getException()).getMessage(),
@@ -93,7 +94,7 @@ public class LoginTabFragment extends Fragment {
                 });
 
 
-                Intent intent = new Intent(getActivity(), Dashboard.class);
+                Intent intent = new Intent(getActivity(), LocationActivity.class);
 
             }
         });

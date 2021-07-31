@@ -16,6 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.example.chatterbox.Dashboard;
+import com.example.chatterbox.LocationActivity;
 import com.example.chatterbox.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -52,7 +53,7 @@ public class SignUpFragment extends Fragment {
 
             if(mAuth.getCurrentUser() !=null){
 
-                startActivity(new Intent(getActivity(), Dashboard.class));
+                startActivity(new Intent(getActivity(), LocationActivity.class));
 
 
             }
@@ -101,7 +102,7 @@ public class SignUpFragment extends Fragment {
                     signUp.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            Intent intent = new Intent(getActivity(), Dashboard.class);
+                            Intent intent = new Intent(getActivity(), LocationActivity.class);
                         }
                     });
 
